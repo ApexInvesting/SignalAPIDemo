@@ -44,12 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Instruments_GetInstruments.cs" />
     <Compile Include="Signals_CreateSignal.cs" />
+    <Compile Include="Signals_RecordEvent.cs" />
     <Compile Include="TradingSystems_GetOrCreate.cs" />
     <Compile Include="Signals_CloseTrade.cs" />
     <Compile Include="Signals_OpenTrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BackTest_Record.cs" />
+    <Compile Include="BackTest_RecordBackTest.cs" />
     <Compile Include="Signals_NotifyUser.cs" />
   </ItemGroup>
   <ItemGroup>

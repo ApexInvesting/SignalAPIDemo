@@ -11,11 +11,11 @@ namespace SignalsAPIMockup {
         /// <summary>
         /// Records a backtest and its entire trade performance summary in a single upload
         /// </summary>
-        public BackTests_RecordResponse BackTests_Record(BackTests_RecordRequest request) {
+        public BackTests_RecordBackTestResponse BackTests_RecordBackTest(BackTests_RecordBackTestRequest request) {
             throw new NotImplementedException();
         }
 
-        public class BackTests_RecordRequest {
+        public class BackTests_RecordBackTestRequest {
 
             public BackTestDefinition Definition;
             public BackTestTrade[] Trades;
@@ -94,7 +94,7 @@ namespace SignalsAPIMockup {
             }
         }
 
-        public class BackTests_RecordResponse {
+        public class BackTests_RecordBackTestResponse {
             public Guid Id;
         }
     }
